@@ -1,0 +1,29 @@
+{
+    "name": "agegate/common",
+    "type": "library",
+    "description": "Common functionality used by Age Gate.",
+    "keywords": [],
+    "license": "MIT",
+    "homepage": "https://asylum.digital",
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/collections": "^8.46",
+        "league/plates": "^3.4",
+        "ramsey/uuid": "^4.2",
+        "jaybizzle/crawler-detect": "^1.2",
+        "erusev/parsedown": "^1.7",
+        "jawira/case-converter": "^3.5",
+        "adbario/php-dot-notation": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "AgeGate\\Common\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+    }
+}

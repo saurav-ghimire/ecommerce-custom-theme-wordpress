@@ -1,0 +1,32 @@
+/*
+Since : 2.1.2 - added support for admin wholesale menu icon change its default color to grayscale, and disable grayscale on hover.    
+*/
+
+/* Variable Product Custom Field (Wholesale Price) */
+td > p.form-field {
+    margin: 0 !important;
+}
+
+/* WP Admin Wholesale Menu icon css override */
+#toplevel_page_wholesale-suite .wp-menu-image img{
+    padding-top: 6px;
+    width: 22px;
+    filter: gray;                 /* IE6-9 */
+    -webkit-filter: grayscale(1);   /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1);           /* Microsoft Edge and Firefox 35+ */
+}
+
+/* Disbale grayscale on hover */
+#toplevel_page_wholesale-suite a.toplevel_page_wholesale-suite:hover .wp-menu-image img {
+
+    /* Disable grayscale on hover */
+    -webkit-filter: grayscale(0) !important;
+    filter: none !important;
+
+}
+
+/* Disable grayscale if submenu is active or has open submenu */
+#toplevel_page_wholesale-suite a.toplevel_page_wholesale-suite.wp-has-current-submenu.wp-menu-open .wp-menu-image img {
+    -webkit-filter: grayscale(0) !important;
+    filter: none !important;
+}

@@ -1,0 +1,8 @@
+
+&__buttons,
+&-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--ag-button-gap, 10px);
+}

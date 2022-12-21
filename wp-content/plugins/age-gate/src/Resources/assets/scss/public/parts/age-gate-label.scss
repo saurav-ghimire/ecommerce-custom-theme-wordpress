@@ -1,0 +1,6 @@
+
+&__label,
+&-label {
+    display: var(--ag-label-display, block);
+    margin: var(--ag-label-margin, 0 0 .5rem);
+}

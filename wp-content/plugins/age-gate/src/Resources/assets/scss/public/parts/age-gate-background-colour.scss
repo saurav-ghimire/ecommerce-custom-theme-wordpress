@@ -1,0 +1,11 @@
+&__background-color,
+&-background-color {
+    top: 0;
+    left: 0;
+    background: var(--ag-background-color, #fff);
+    opacity: var(--ag-background-opacity, 1);
+    position: fixed;
+    width: var(--ag-overlay-width, 100%);
+    height: calc(100vh - var(--vh-offset, 0px));
+    z-index: 1;
+}

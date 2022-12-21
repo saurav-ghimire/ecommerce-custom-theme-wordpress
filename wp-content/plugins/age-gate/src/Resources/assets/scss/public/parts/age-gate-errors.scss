@@ -1,0 +1,9 @@
+
+&__errors,
+&-errors {
+    padding: var(--ag-text-errors-padding, 0 10px);
+
+    &:empty {
+        padding: 0;
+    }
+}

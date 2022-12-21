@@ -1,0 +1,65 @@
+#ag-media-gallery {
+    height: 100%;
+}
+
+.age-gate-gallery {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+
+    &__items {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 10px;
+        max-height: 70vh;
+        overflow: auto;
+    }
+
+    &__item {
+        width: 150px;
+        padding: 5px;
+
+        input {
+            display: none;
+            &:checked + span {
+                outline: #fff solid 3px;
+                box-shadow: 6px 6px 1px #1d8399,
+                    -6px -6px 1px #1d8399;
+            }
+        }
+    }
+
+    &__label,
+    &__inner {
+        display: block;
+        height: 100%;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__toolbar {
+        display: flex;
+        padding: 20px;
+        border-bottom: 1px solid rgb(190, 190, 190);
+        width: calc(100% - 40px);
+    }
+
+    &__error {
+        flex: 1;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        .dashicons {
+            color: red;
+        }
+    }
+
+}

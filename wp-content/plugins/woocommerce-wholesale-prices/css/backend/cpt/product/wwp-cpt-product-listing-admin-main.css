@@ -1,0 +1,18 @@
+/* Wholesale price per role and country accordion */
+.wholesale-price-per-role-and-country-accordion {
+    padding: 0 0 20px 0 !important;
+}
+.wholesale-price-per-role-and-country-accordion h4 {
+    outline: none;
+    border-radius: 0;
+}
+.wholesale-price-per-role-and-country-accordion .section-container {
+    border-radius: 0;
+}
+.wholesale-price-per-role-and-country-accordion .section-container p label {
+    width: 220px !important;
+    display: inline-block;
+}
+.wholesale-price-per-role-and-country-accordion .section-container p .wc_input_price {
+    width: 90%;
+}

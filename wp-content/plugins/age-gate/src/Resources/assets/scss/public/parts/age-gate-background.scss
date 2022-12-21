@@ -1,0 +1,29 @@
+
+&__background,
+&-background {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: var(--ag-overlay-width, 100%);
+    height: calc(100vh - var(--vh-offset, 0px));
+    z-index: 2;
+    background: {
+        image: var(--ag-background-image);
+        position: var(--ag-background-image-position);
+        repeat: var(--ag-background-image-repeat);
+        size: var(--ag-background-image-size, cover);
+    }
+    opacity: var(--ag-background-image-opacity);
+
+    video,
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,41 @@
+.wwpp-addon {
+  background: #b8b8b8;
+  border-color: #eee;
+  color: #000;
+  text-decoration: none;
+  text-shadow: none;
+  padding: 19px 15px;
+  margin-right: 10px;
+  display: inline-block;
+  margin-left: 12px;
+  font-weight: 600;
+}
+.wwpp-addon:active,
+.wwpp-addon:hover {
+  color: #000;
+}
+
+.wwpp-addon:active {
+  top: 1px;
+  position: relative;
+}
+a.wws-bundle-btn {
+  color: #fff;
+  display: inline-block;
+}
+a.wws-bundle-btn:active {
+  top: 1px;
+  position: relative;
+}
+a.wws-bundle-btn div {
+  width: 180px;
+  display: flex;
+  float: left;
+  flex-direction: column;
+  align-items: center;
+  background: #007cba;
+  padding: 10px 15px;
+}
+p.submit {
+  display: none;
+}

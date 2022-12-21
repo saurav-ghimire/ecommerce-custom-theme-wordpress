@@ -1,0 +1,41 @@
+.quick-stats{
+  h3{
+    margin-bottom: 20px;
+  }
+  h1{
+    margin-bottom: 0px!important;
+    font-size: 46px!important;
+    font-weight: 600!important;
+
+    .woocommerce-Price-currencySymbol{
+      font-size: 24px;
+    }
+  }
+  .align-items-left{
+    display: flex;
+    justify-content: flex-start;
+    top: 2px;
+  }
+  .align-items-right{
+    text-align: right;
+  }
+  .ant-card{
+    border: 0px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+    & .ant-card-body > span{
+      font-size: 16px;
+      font-weight: 600;
+      width: 100px;
+      display: inline-block;
+    }
+  }
+}
+
+.quick-stats-note{
+  width: 250px;
+}

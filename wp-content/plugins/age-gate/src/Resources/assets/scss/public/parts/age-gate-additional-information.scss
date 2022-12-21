@@ -1,0 +1,10 @@
+&__additional-information,
+&-additional-information {
+    font-size: var(--ag-text-additional-size, 12px);
+    padding: var(--ag-text-additional-padding, 0px);
+    margin: var(--ag-text-additional-margin, 0px);
+
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}

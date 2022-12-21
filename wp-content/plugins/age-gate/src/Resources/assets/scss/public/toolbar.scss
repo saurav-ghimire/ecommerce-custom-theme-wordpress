@@ -1,0 +1,10 @@
+#wpadminbar {
+    #wp-admin-bar-age-gate {
+         > .ab-item {
+            &::before {
+                content: "\f160";
+                top: 2px;
+            }
+        }
+    }
+}

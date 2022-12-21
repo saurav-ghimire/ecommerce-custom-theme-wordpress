@@ -1,0 +1,47 @@
+
+.ag-post-metabox {
+
+    &__title {
+        margin-bottom: 0;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        padding: 12px 0 0;
+        // padding-bottom: 14px;
+        // margin-bottom: 14px;
+        // border-bottom: 1px solid #ccc;
+
+        // &:last-of-type {
+        //     padding-bottom: 0;
+        //     margin-bottom: 0;
+        //     border-bottom: 0;
+        // }
+
+        // &:first-of-type {
+        //     // padding-top: 14px;
+        //     // border-top: 1px solid #ccc;
+        // }
+
+        &--age {
+            display: none;
+
+            input[type="number"] {
+                text-align: center;
+                margin: 0 0 0 auto;
+
+                table .form-field &,
+                .age-gate-wrap & {
+                    width: 65px;
+                    margin-left: 10px;
+                }
+            }
+
+            .ag-show-age & {
+                display: flex;
+            }
+        }
+    }
+}

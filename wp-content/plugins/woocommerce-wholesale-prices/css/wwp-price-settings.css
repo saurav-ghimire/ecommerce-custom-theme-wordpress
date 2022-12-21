@@ -1,0 +1,11 @@
+.wwp-wwlc-inactive {
+    border-left-color: #348dd6;
+    flex-direction: column;
+}
+.wwp-wwlc-inactive .checked {
+    color: orange;
+}
+
+.wwp-wwlc-inactive .discounted {
+    color: rgb(5, 160, 83);
+}

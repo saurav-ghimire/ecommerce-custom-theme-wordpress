@@ -1,0 +1,22 @@
+.ag-field {
+    .editor-toolbar {
+        &.fullscreen {
+            z-index: 10000000;
+        }
+    }
+
+    .CodeMirror-fullscreen {
+        z-index: 10000000;
+    }
+
+    .CodeMirror-sided,
+    .editor-preview-side {
+        box-sizing: border-box;
+    }
+
+    .ag-fields {
+        .CodeMirror {
+            padding: 0;
+        }
+    }
+}

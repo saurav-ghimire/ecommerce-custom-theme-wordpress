@@ -1,0 +1,100 @@
+.vex-wwpp-upsell .vex-content,
+.wholesale_page_wwpp-wholesale-roles-page .vex.wwp-wholesale-roles .vex-content {
+  padding: 1.8rem 2rem !important;
+  width: 560px !important;
+  border-radius: 6px;
+}
+.vex-wwpp-upsell img.logo {
+  height: 62px;
+}
+.vex-wwpp-upsell h4 {
+  font-size: 20px;
+  margin-bottom: 1.25rem;
+}
+.vex-wwpp-upsell p {
+  font-size: 16px;
+  padding-right: 60px;
+}
+
+.vex-wwpp-upsell .green-text {
+  color: #218900;
+  font-weight: bold;
+}
+
+.vex-wwpp-upsell .vex-dialog-buttons {
+  display: inline-block !important;
+  margin-top: 20px !important;
+}
+.vex-wwpp-upsell .vex-dialog-buttons,
+.vex-wwpp-upsell .vex-dialog-input {
+  display: none !important;
+}
+.vex-wwpp-upsell .actions {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.vex-wwpp-upsell a.vex-btn {
+  background: #007cba;
+  border-color: #007cba;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+  padding: 0.8rem 1.1rem;
+  margin-right: 1rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+.vex-wwpp-upsell a.vex-btn:active {
+  background: #00669b;
+  border-color: #00669b;
+  box-shadow: none;
+  color: #fff;
+  top: 1px;
+  position: relative;
+}
+
+.vex-wwpp-upsell .bonus {
+  margin-top: 5px;
+}
+
+.vex-wwpp-upsell .bonus p {
+  font-size: 14px;
+}
+
+.vex.vex-theme-plain .vex-close:before {
+  font-size: 30px;
+  top: 5px;
+  right: 5px;
+}
+
+.vex.vex-theme-plain .vex-content h2 {
+  font-size: 22px;
+}
+.wholesale_page_wwpp-wholesale-roles-page .vex.vex-theme-plain .vex-content p {
+  font-size: 16px;
+}
+.wholesale_page_wwpp-wholesale-roles-page .vex.vex-theme-plain .vex-content a.button {
+  font-family: "Lato", "Lato", Helvetica, Arial, Sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f7941d;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #a85e06;
+  padding: 4px 12px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+.wholesale_page_wwpp-wholesale-roles-page .vex.vex-theme-plain .vex-content a.button:active {
+  top: 1px;
+  position: relative;
+}
+.vex-theme-plain.wwp-wholesale-roles {
+  z-index: 99999;
+}

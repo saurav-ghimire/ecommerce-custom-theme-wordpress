@@ -1,0 +1,46 @@
+#wholesale-dashboard{
+  padding: 0px 20px;
+  
+  .logo-link{
+    &:focus{
+      box-shadow: none;
+    }
+  }
+
+  .logo-wrap{
+    margin: 40px 0px 20px;
+    align-items: center;
+  }
+
+  .wrap{
+    & > h1{
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+  }
+
+  .upgrade-now{
+    border-radius: 6px;
+    margin-left: 1.5rem;
+    background: #d96208;
+    color: #fff;
+    transition: background-color 0.4s ease;
+    font-size: 15px;
+    padding: 6px 14px;
+  }
+   
+}
+
+#page-loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.side-panel{
+  width: 350px;
+  border: 1px solid #D5D5D5!important;
+  background:#FAFAFA
+}

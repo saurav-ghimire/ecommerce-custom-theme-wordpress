@@ -1,0 +1,25 @@
+{
+    "name": "asylum/utility",
+    "type": "library",
+    "description": "Utilities used by our suite of WordPress plugins.",
+    "keywords": [],
+    "license": "MIT",
+    "homepage": "https://asylum.digital",
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/collections": "^8.46",
+        "league/plates": "^3.4",
+        "ramsey/uuid": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asylum\\Utility\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+    }
+}

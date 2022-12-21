@@ -1,0 +1,22 @@
+.ag-media-clear,
+.button--remove,
+.ag-remove-legacy-css {
+    .wp-core-ui & {
+        color: #c00;
+        border-color: #c00;
+    }
+}
+
+.ag-docs-link {
+    .wp-core-ui & {
+        margin-top: 12px;
+        display: inline-block;
+    }
+
+    .dashicons {
+        font-size: inherit;
+        width: auto;
+        height: auto;
+        vertical-align: baseline;
+    }
+}

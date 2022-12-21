@@ -1,0 +1,10 @@
+&__extra,
+&-extra {
+    max-width: var(--ag-fields-width, 100%);
+    margin: var(--ag-fields-margin, 0 auto 1rem);
+    width: 100%;
+
+    &:empty {
+        display: none;
+    }
+}

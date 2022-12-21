@@ -1,0 +1,10 @@
+
+&__form-elements,
+&-form-elements {
+    list-style: none;
+    margin: var(--ag-input-margin, 0);
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--ag-input-spacing, 10px);
+}

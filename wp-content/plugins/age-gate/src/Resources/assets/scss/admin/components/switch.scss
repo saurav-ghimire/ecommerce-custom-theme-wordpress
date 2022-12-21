@@ -1,0 +1,105 @@
+.ag-switch {
+
+    $active: #1d8399;
+    $width: 60px;
+    $height: 34px;
+    $sliderSpace: 4px;
+    $sliderHeight: $height - $sliderSpace - $sliderSpace;
+
+    position: relative;
+    display: inline-block;
+    width: $width;
+    height: $height;
+
+    .form-wrap & {
+        padding: 0 0 0 0;
+    }
+
+    + label {
+        padding-left: 10px;
+    }
+
+    &__slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: 0.4s;
+        border-radius: $height;
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: $sliderHeight;
+            width: $sliderHeight;
+            left: $sliderSpace;
+            bottom: $sliderSpace;
+            background-color: white;
+            transition: 0.4s;
+            border-radius: 50%;
+        }
+    }
+
+    input {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+
+        &:checked {
+            + .ag-switch__slider {
+                background-color: $active;
+
+                &::before {
+                    transform: translateX($sliderHeight);
+                }
+            }
+        }
+
+        &:focus {
+            + .ag-switch__slider {
+                box-shadow: 0 0 1px $active;
+            }
+        }
+    }
+
+    &--disabled {
+        label {
+            position: relative;
+            opacity: 0.5;
+            pointer-events: none;
+        }
+    }
+
+    &--small {
+        width: $width / 2;
+        height: $height / 2;
+
+        .ag-switch__slider {
+            border-radius: $height / 2;
+
+            &::before {
+                height: $sliderHeight / 2;
+                width: $sliderHeight / 2;
+                left: $sliderSpace / 2;
+                bottom: $sliderSpace / 2;
+            }
+        }
+
+        input {
+            &:checked {
+                +.ag-switch__slider {
+                    &::before {
+                        transform: translateX($sliderHeight / 2);
+                    }
+                }
+            }
+        }
+    }
+}

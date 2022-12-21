@@ -1,0 +1,7 @@
+
+&__restricted,
+&-restricted {
+    overflow: var(--ag-html-overflow, hidden);
+    position: relative;
+    height: calc(100vh - var(--vh-offset, 0px));
+}

@@ -1,0 +1,77 @@
+button.button-primary.woocommerce-save-button{
+    display: none;
+}
+
+#wwp-license-upgrade {
+    max-width: 1000px;
+    margin-top: 30px;
+}
+
+#wwp-license-upgrade img {
+    vertical-align: middle;
+}
+
+#wwp-license-upgrade h1 {
+    font-size: 22px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+#wwp-license-upgrade table.license-specs {
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+#wwp-license-upgrade table thead tr th {
+    text-align: left;
+}
+
+#wwp-license-upgrade table tbody tr td {
+    width: 80px;
+    padding: 2px 10px 2px 0px;
+}
+
+#wwp-license-upgrade .license-info-box {
+    background: #ffffff;
+    border: 1px solid #d5d5d5;
+    margin-top: 30px;
+}
+
+#wwp-license-upgrade .content-body {
+    background: #ffffff;
+    padding: 35px 30px;
+}
+
+#wwp-license-upgrade .left-content-header {
+    width: calc(100% - 221px);
+}
+
+#wwp-license-upgrade .action-button {
+    color: inherit;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 30px;
+    text-decoration: none;
+}
+
+#wwp-license-upgrade .upgrade-to-premium {
+    background: #3aba8e;
+    color: #ffffff;
+}
+
+#wwp-license-upgrade .feature-comparison {
+    background: #f7941d;
+    color: #ffffff;
+}
+
+#wwp-license-upgrade .content-header {
+    background: #f5f5f5;
+    border-bottom: 1px solid #d5d5d5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 30px;
+
+}

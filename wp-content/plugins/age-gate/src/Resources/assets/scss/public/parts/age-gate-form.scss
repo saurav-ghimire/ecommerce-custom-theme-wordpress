@@ -1,0 +1,21 @@
+
+&__form,
+&-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .age-gate--shortcode & {
+
+        @media screen and (min-width: 768px) {
+            position: relative;
+            height: 0;
+
+            padding: {
+                bottom: 56.25%;
+            }
+        }
+    }
+}

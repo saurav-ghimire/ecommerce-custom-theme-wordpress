@@ -1,0 +1,11 @@
+
+&__error,
+&-error {
+    color: var(--ag-text-error-color, #c00);
+    font-weight: var(--ag-text-error-weight, bold);
+
+    a {
+        color: currentColor;
+        text-decoration: underline;
+    }
+}

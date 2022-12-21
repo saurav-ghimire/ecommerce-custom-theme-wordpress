@@ -1,0 +1,33 @@
+.license-status{
+
+  .anticon{
+    font-size: 18px;
+  }
+  
+  ul{
+    list-style: none;
+    padding:  0px;
+    margin: 0;
+    
+    li{
+      padding: 10px 0px;
+
+      .active{
+        color: green;
+      }
+      .inactive{
+        color: orange;
+      }
+      .expired{
+        color: red;
+      }
+      .invalid{
+        color: #ffc107;
+      }
+    }
+  }
+}
+
+.ant-message{
+  margin-top: 30px;
+}

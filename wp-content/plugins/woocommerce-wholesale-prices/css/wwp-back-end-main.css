@@ -1,0 +1,117 @@
+#toplevel_page_wholesale-suite ul li.wwp-upgrade-to-premium a,
+#toplevel_page_wholesale-suite ul li.wwp-upgrade-to-premium a:hover{
+  background: #1da867;
+  color: #fff;
+  font-weight: bold;
+}
+
+.notice.wwp-getting-started {
+  padding: 15px 20px !important;
+  position: relative;
+}
+.notice.wwp-getting-started p {
+  font-size: 16px;
+}
+
+.notice.wwp-getting-started p a {
+  font-family: "Lato", "Lato", Helvetica, Arial, Sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f7941d;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #a85e06;
+  padding: 10px 20px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.notice.wwp-getting-started p a:active {
+  top: 1px;
+  position: relative;
+}
+
+.notice.acfwf-cross-sell {
+  padding: 15px 20px !important;
+  border-left-color: #035e6b;
+  display: flex;
+  flex-direction: column;
+}
+
+.notice.acfwf-cross-sell div.acfwf-logo {
+  display: flex;
+  align-items: center;
+}
+
+.notice.acfwf-cross-sell div.acfwf-logo img {
+  height: 42px;
+  margin-right: 32px;
+}
+
+.notice.acfwf-cross-sell div.acfwf-logo h2 {
+  color: #035e6b;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.notice.acfwf-cross-sell p {
+  font-size: 16px;
+}
+
+.notice.acfwf-cross-sell .acfw-notice-dismiss {
+  position: relative;
+  color: #035e6b;
+  text-decoration: none;
+  font-size: 14px;
+}
+.notice.acfwf-cross-sell .install-plugin {
+  font-family: "Lato", "Lato", Helvetica, Arial, Sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #000;
+  background-color: #c6cd2e;
+  padding: 10px 30px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.notice.acfwf-cross-sell .install-plugin:active {
+  top: 1px;
+  position: relative;
+}
+
+.notice.acfwf-cross-sell p.message {
+  max-width: 1244px;
+}
+.notice.acfwf-cross-sell p b {
+  font-weight: 700;
+}
+
+.wwp-upgrade-box {
+  margin: 2rem 0 1rem 0;
+  background: #ffffff;
+  border: 1px solid #d5d5d5;
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 0.4rem 1.5rem;
+  max-width: 1000px;
+}
+
+.wwp-upgrade-box .wwp-upgrade-box-row {
+  display: flex;
+  margin-bottom: 0.6rem;
+}
+
+.wwp-upgrade-box .wwp-upgrade-box-col {
+  flex: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .wwp-upgrade-box .wwp-upgrade-box-col {
+    width: 100%;
+  }
+}

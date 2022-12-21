@@ -1,0 +1,84 @@
+.ag-field {
+    margin-bottom: 10px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    &--flex {
+        display: flex;
+    }
+
+    &--textarea {
+        .mono {
+            border-radius: 0;
+            resize: none;
+            width: 100%;
+            height: 300px;
+            font-family: 'Courier New', Courier, monospace;
+            white-space: nowrap;
+            overflow: auto;
+            padding: 12px;
+        }
+    }
+}
+
+.ag-small {
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.ag-file {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    height: 2.5rem;
+
+    input {
+        min-width: 14rem;
+        margin: 0;
+        filter: alpha(opacity=0);
+        opacity: 0;
+    }
+
+    &-custom {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 5;
+        // height: 2.5rem;
+        padding: 0.5rem 1rem;
+        line-height: 1.5;
+        color: #555;
+        background-color: #fff;
+        border: 0.075rem solid #ddd;
+        border-radius: 0.25rem;
+        box-shadow: inset 0 0.2rem 0.4rem rgb(0 0 0 / 5%);
+        user-select: none;
+        overflow: hidden;
+
+        &::before {
+            position: absolute;
+            top: -0.075rem;
+            right: -0.075rem;
+            bottom: -0.075rem;
+            z-index: 6;
+            display: block;
+            content: "Browse";
+            // height: 2.5rem;
+            padding: 0.5rem 1rem;
+            line-height: 1.5;
+            color: #555;
+            background-color: #eee;
+            border: 0.075rem solid #ddd;
+            border-radius: 0 0.25rem 0.25rem 0;
+        }
+
+        &::after {
+            content: attr(data-text);
+            white-space: nowrap;
+        }
+    }
+
+}

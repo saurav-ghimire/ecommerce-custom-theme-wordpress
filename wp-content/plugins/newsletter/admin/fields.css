@@ -1,0 +1,203 @@
+html {
+    --tnpf-col-padding: 0 10px;
+}
+
+.tnpf-form {
+    padding: 15px;
+    margin-top: 0;
+    color: #444;
+    background-color: #ECF0F1 !important;
+}
+
+.tnp-field-row, .tnpf-row {
+    clear: both;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.tnp-field-col-2, .tnpf-col-2, .tnpf-col-50 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    float: left;
+}
+
+.tnp-field-col-3, .tnp-field-col-33, .tnpf-col-33 {
+    width: 33%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    float: left;
+}
+
+.tnp-field-col-20, .tnpf-col-20 {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    float: left;
+}
+
+.tnp-field-col-66, .tnpf-col-66 {
+    width: 66%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    float: left;
+}
+
+.tnp-field-col-80, .tnpf-col-80 {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    float: left;
+}
+
+.tnpf-field-box {
+    padding: 10px;
+    background-color: #eee !important;
+    border: 1px solid #bbb;
+}
+
+.tnpf-section {
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.tnpf-separator {
+    border-top: 1px solid #ddd;
+    line-height: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Single field container */
+.tnpf-field, .tnpf-field {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.tnpf-field select.tnpf-small,
+.tnpf-field select.tnp-small {
+    font-size: .9em;
+}
+
+.tnpf-field label.tnpf-label, 
+.tnpf-field label.tnp-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    border: 0;
+    margin: 0px 0px 0px 0px;
+    font-family: soleil, sans-serif;
+    font-weight: 300;
+    padding-bottom: 5px;
+    color: #666;
+}
+
+.tnpf-row label.tnpf-row-label,
+.tnp-field-row label.tnp-row-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    border: 0;
+    margin: 0px 0px 0px 10px;
+    font-family: soleil, sans-serif;
+    font-weight: 300;
+    padding-bottom: 5px;
+    color: #666;
+}
+
+/* Compesate the negative row margin */
+.tnp-field-row label.tnp-row-label {
+    margin-left: 10px;
+}
+
+.tnpf-row .tnpf-field .tnpf-label,
+.tnpf-row .tnpf-field .tnp-label
+{
+    margin-top: 0;
+}
+
+.tnpf-field.tnpf-checkbox label {
+    display: inline;
+}
+
+/* Set of inlined field for font, size, color... */
+
+.tnpf-field:not(.tnp-colorpicker) input {
+    width: 100%;
+}
+
+.tnpf-field input[type=number] {
+    width: 100px;
+}
+
+.tnpf-field.tnpf-size input {
+    width: 60px;
+    display: inline;
+}
+
+.tnpf-field .tnp-padding-fields {
+    display: inline;
+}
+
+/* Four field for block padding selection */
+.tnpf-field .tnp-padding-fields input {
+    width: 40px;
+    display: inline;
+}
+
+.tnpf-field select {
+    width: auto!important;
+    color: #34495E;
+}
+
+.tnpf-field input[type=url] {
+    font-family: monospace;
+}
+
+.tnpf-field input[type=color] {
+    width: 40px;
+    min-height: 30px;
+    vertical-align: middle;
+}
+
+.tnpf-field input[type=submit] {
+    width: auto;
+}
+
+.tnpf-field input[type=checkbox] {
+    width: auto;
+}
+
+.tnpf-field.tnpf-button .tnpf-font-family {
+    font-size: 13px;
+}
+
+.tnpf-field.tnpf-button .tnpf-font-size {
+    font-size: 13px;
+}
+
+.tnpf-field.tnpf-button .tnpf-font-weight {
+    font-size: 13px;
+}
+
+.tnpf-field.tnp-categories {
+
+}
+
+/* The label for each category checkbox (should override the generic label appearance) */
+.tnpf-field.tnp-categories label {
+
+}
+
+.tnpf-description {
+    margin-top: 3px;
+    font-style: italic;
+    font-weight: normal;
+    color: #999999;
+    font-size: 12px;
+}

@@ -1,0 +1,33 @@
+@at-root button {
+    &.age-gate__button,
+    &.age-gate-button,
+    &.age-gate__submit--no,
+    &.age-gate-submit-no,
+    &.age-gate__submit--yes,
+    &.age-gate-submit-yes {
+        background-color: var(--ag-button-color-background, #333);
+        color: var(--ag-button-color-text, #fff);
+        border-radius: var(--ag-button-radius, 3px);
+        padding: var(--ag-button-padding, 0.5rem 1rem);
+        border: var(--ag-button-border, 0);
+        font-size: var(--ag-button-size, 1rem);
+        font-weight: var(--ag-button-weight, 600);
+        cursor: var(--ag-button-cursor, pointer);
+
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: var(--ag-button-color-hover, darken(#333, .2));
+            color: var(--ag-button-color-text-hover, #fff);
+            border: var(--ag-button-hover-border, 0);
+        }
+    }
+
+    &.age-gate__submit--no,
+    &.age-gate-submit-no,
+    &.age-gate__submit--yes,
+    &.age-gate-submit-yes {
+        margin: var(--ag-button-margin, 0);
+    }
+}
+

@@ -1,0 +1,188 @@
+/* free-vs-premium */
+.box{
+    width: 54%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 40px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    background: #fff;
+    -webkit-box-shadow: -1px 2px 18px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 18px -10px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 18px -10px rgba(0,0,0,0.75);
+}
+.box .page-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px;
+}
+.free-vs-premium.box .dashicons-no{
+    color: red;
+}
+.free-vs-premium.box .dashicons-yes-alt{
+    color: #6abd45;
+    margin-right: 5px
+}
+.free-vs-premium.box table{
+    width: 100%;
+    border-collapse:collapse;
+    margin-top: 40px;
+}
+.free-vs-premium.box table th,
+.free-vs-premium.box table td{
+    border: 1px solid #d5d5d5;
+    font-size: 16px;
+}
+.free-vs-premium.box table th{
+    background: #f5f5f5;
+    text-align: center;
+    font-size: 16px;
+}
+.free-vs-premium.box table th:last-child{
+    font-weight: 700;
+}
+.free-vs-premium.box table td{
+    background: #fcfcfc;
+    padding: 20px;
+}
+.free-vs-premium.box table tr:last-child{
+    text-align: center;
+}
+.free-vs-premium.box table tr:last-child .page-title{
+    font-weight: 400;
+    margin: 14px;
+}
+.free-vs-premium.box img,
+.free-vs-premium.box p.sub,
+.wholesale-suite-bundle.box p.sub{
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+button.button-primary.woocommerce-save-button{
+    display: none;
+}
+
+.free-vs-premium.box a.full-features{
+    font-family: "Lato", 'Lato', Helvetica, Arial, Sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f7941d;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #A85E06;
+    padding: 10px 20px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.free-vs-premium.box a.full-features:active{
+    top: 1px;
+    position: relative;
+}
+/* -bundle- */
+.wholesale-suite-bundle.box{
+    padding-bottom: 40px;
+}
+.wholesale-suite-bundle.box .products{
+    border: 1px solid #d5d5d5;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.wholesale-suite-bundle.box .page-title{
+    font-size: 26px;
+}
+.wholesale-suite-bundle.box .products .page-title-h2,
+.wholesale-suite-bundle.box .products p{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    font-size: 18px; 
+}
+.wholesale-suite-bundle.box .products .row{
+    display: grid;
+    grid-template-columns: minmax(min-content, 1fr) 250px;
+}
+.wholesale-suite-bundle.box .products .row .column{
+    position: relative;
+}
+.wholesale-suite-bundle.box .products .page-title-h2{
+    font-size: 22px;
+    font-weight: 600;    
+}
+.wholesale-suite-bundle.box .products img{
+    position: absolute;
+    top: -40px;
+}
+
+.wholesale-suite-bundle.box .products:last-child{
+    text-align: center;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.wholesale-suite-bundle.box .products:last-child .page-title{
+    font-weight: 400;
+    font-size: 24px;
+}
+.wholesale-suite-bundle.box .products:last-child a.see-bundle{
+    font-family: "Lato", 'Lato', Helvetica, Arial, Sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f7941d;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #A85E06;
+    padding: 10px 20px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.wholesale-suite-bundle.box .products:last-child a.see-bundle:active{
+    top: 1px;
+    position: relative;
+}
+
+#wwp-upgrade-page{
+    margin-top: 2.5rem!important;
+}
+
+@media only screen and (max-width: 1500px) {
+    .box{
+        width: 70%;
+    }
+    .wholesale-suite-bundle.box .products img{
+        position: relative;
+        top: auto;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .box{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #wwp-upgrade-page,
+    .free-vs-premium,
+    .wholesale-suite-bundle{
+        text-align: center;
+    }
+    .wholesale-suite-bundle.box .products .row{
+        display: block;
+    }
+}

@@ -1,0 +1,27 @@
+/* WordPress 4.4 and WooCommerce 2.4.10 and above Styling Fixes */
+#general_product_data .show_if_simple .options_group h3 {
+    font-size: 14px; padding: 8px 12px 0 12px; margin: 0; line-height: 1.4;
+}
+
+/* Wholesale price per role and country accordion */
+.wholesale-price-per-role-and-country-accordion {
+    padding: 10px 12px 20px 12px !important;
+}
+.woocommerce_variable_attributes .wholesale-price-per-role-and-country-accordion {
+    padding: 10px 0 20px 0 !important;
+}
+.wholesale-price-per-role-and-country-accordion h4 {
+    outline: none;
+    border-radius: 0;
+}
+.wholesale-price-per-role-and-country-accordion .section-container {
+    border-radius: 0;
+}
+.wholesale-price-per-role-and-country-accordion .section-container p label {
+    width: 220px !important;
+    display: inline-block;
+}
+.wholesale-price-per-role-and-country-accordion .section-container p label,
+.wholesale-price-per-role-and-country-accordion .section-container p .wc_input_price {
+    width: 90%;
+}

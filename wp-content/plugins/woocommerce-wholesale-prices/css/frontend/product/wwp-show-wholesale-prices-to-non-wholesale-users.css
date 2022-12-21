@@ -1,0 +1,421 @@
+/*=====================================================================================================================
+  SHOW WHOLESALE PRICE TO NON-WHOLESALES
+=====================================================================================================================*/
+.wwp_show_wholesale_prices_link {
+    padding-left: 0px;
+    padding-top: 5px;
+}
+
+.wwp_show_wholesale_prices_link span {
+    display: inline-block;
+    border: none;
+    width: max-content;
+}
+
+.wwp_show_wholesale_prices_text {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.woostify-container .wwp_show_wholesale_prices_text {
+    margin-top: -10px;
+}
+
+/* Fix for Avada Theme */
+.fade {
+    opacity: 1 !important;
+    transition: opacity 0.3s linear;
+}
+
+/* Fix for Electro Theme */
+.electro-price .wwp_show_wholesale_prices_text {
+    font-size: 14px;
+}
+
+.wwp-see-wholesale-prices-popover table td,
+.wwp-see-wholesale-prices-popover table th {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+.wwp-see-wholesale-prices-popover .popover-header {
+    display: table;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0;
+}
+
+.wwp-see-wholesale-prices-popover .popover-header .custom-title {
+    width: 100%;
+    max-width: 100%;
+    font-weight: 500 !important;
+    display: table-cell;
+    vertical-align: middle !important;
+}
+
+.wwp-see-wholesale-prices-popover .popover-body {
+    padding: 0px;
+}
+
+/*.popover-body table {
+  padding: 6px 14px;
+}*/
+
+.wwp-see-wholesale-prices-popover .popover-header .close {
+    position: relative;
+    font-size: 2em;
+}
+
+.wwp-see-wholesale-prices-popover .popover-header .close:focus {
+    outline: none;
+}
+
+.wwp-see-wholesale-prices-popover .popover-body table tbody td {
+    background: #ffffff !important;
+    vertical-align: middle;
+}
+
+.wwp-see-wholesale-prices-popover .popover-body table tbody td.textalign-right {
+    text-align: right !important;
+}
+
+.wwp-see-wholesale-prices-popover .popover-body table tbody td.textalign-left {
+    text-align: left !important;
+    padding-left: 0px;
+}
+
+.wwp-see-wholesale-prices-popover .popover-body table tbody td.autowidth {
+    white-space: nowrap;
+    padding-right: 0px;
+}
+
+.wwp-see-wholesale-prices-popover .popover-footer {
+    padding: 6px 14px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ebebeb;
+    text-align: right;
+}
+
+.wwp-see-wholesale-prices-popover .register-link {
+    display: block;
+    margin-top: 15px;
+}
+
+.wwp-see-wholesale-prices-popover .register-link a {
+    display: inline-block;
+    padding-right: 6px;
+}
+
+.wwp-see-wholesale-prices-popover .popover-wholesale-price-table .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+    background-color: transparent;
+}
+
+.wwp-see-wholesale-prices-popover
+    .popover-wholesale-price-table
+    .table
+    tr:first-child {
+    /*padding: 0.75rem;*/
+    vertical-align: top;
+    border-top: none !important;
+}
+
+.wwp-see-wholesale-prices-popover .popover-wholesale-price-table .table tr {
+    /*padding: 0.75rem;*/
+    vertical-align: top;
+    border-top: 0.1px solid #d5d7da !important;
+}
+
+.wwp-see-wholesale-prices-popover
+    .popover-wholesale-price-table
+    .table
+    tr:last-child {
+    /*padding: 0.75rem;*/
+    vertical-align: top;
+    border-bottom: none transparent !important;
+}
+
+.wwp-see-wholesale-prices-popover .popover_wholesale_replacement_message span {
+    padding-right: 6px;
+    /*font-weight: 400;
+  font-size: 20px;
+  color: #333333;*/
+}
+
+.wwp-see-wholesale-prices-popover
+    .popover_wholesale_replacement_message
+    span.is-shop {
+    padding-right: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+/*
+Popover - Bootstrap 5.1.1
+*/
+.wwp-see-wholesale-prices-popover .popover {
+    min-width: 350px;
+    position: absolute;
+    top: 0;
+    left: 0 /* rtl:ignore */;
+    z-index: 999999;
+    display: block;
+    max-width: 276px;
+    font-family: var(--bs-font-sans-serif);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    white-space: normal;
+    line-break: auto;
+    font-size: 0.875rem;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+}
+.wwp-see-wholesale-prices-popover .popover .popover-arrow {
+    position: absolute;
+    display: block;
+    width: 1rem;
+    height: 0.5rem;
+}
+.wwp-see-wholesale-prices-popover .popover .popover-arrow::before,
+.wwp-see-wholesale-prices-popover .popover .popover-arrow::after {
+    position: absolute;
+    display: block;
+    content: "";
+    border-color: transparent;
+    border-style: solid;
+}
+
+.wwp-see-wholesale-prices-popover .bs-popover-top > .popover-arrow,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="top"]
+    > .popover-arrow {
+    bottom: calc(-0.5rem - 1px);
+}
+.wwp-see-wholesale-prices-popover .bs-popover-top > .popover-arrow::before,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="top"]
+    > .popover-arrow::before {
+    bottom: 0;
+    border-width: 0.5rem 0.5rem 0;
+    border-top-color: rgba(0, 0, 0, 0.25);
+}
+.wwp-see-wholesale-prices-popover .bs-popover-top > .popover-arrow::after,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="top"]
+    > .popover-arrow::after {
+    bottom: 1px;
+    border-width: 0.5rem 0.5rem 0;
+    border-top-color: #fff;
+}
+
+.wwp-see-wholesale-prices-popover .bs-popover-end > .popover-arrow,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="right"]
+    > .popover-arrow {
+    left: calc(-0.5rem - 1px);
+    width: 0.5rem;
+    height: 1rem;
+}
+
+.wwp-see-wholesale-prices-popover .bs-popover-end > .popover-arrow::before,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="right"]
+    > .popover-arrow::before {
+    left: 0;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    border-right-color: rgba(0, 0, 0, 0.25);
+}
+
+.wwp-see-wholesale-prices-popover .bs-popover-end > .popover-arrow::after,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="right"]
+    > .popover-arrow::after {
+    left: 1px;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    border-right-color: #fff;
+}
+
+.wwp-see-wholesale-prices-popover .bs-popover-bottom > .popover-arrow,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="bottom"]
+    > .popover-arrow {
+    top: calc(-0.5rem - 1px);
+}
+
+.wwp-see-wholesale-prices-popover .bs-popover-bottom > .popover-arrow::before,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="bottom"]
+    > .popover-arrow::before {
+    top: 0;
+    border-width: 0 0.5rem 0.5rem 0.5rem;
+    border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wwp-see-wholesale-prices-popover .bs-popover-bottom > .popover-arrow::after,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="bottom"]
+    > .popover-arrow::after {
+    top: 1px;
+    border-width: 0 0.5rem 0.5rem 0.5rem;
+    border-bottom-color: #fff;
+}
+
+.wwp-see-wholesale-prices-popover .bs-popover-bottom .popover-header::before,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="bottom"]
+    .popover-header::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 1rem;
+    margin-left: -0.5rem;
+    content: "";
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.wwp-see-wholesale-prices-popover .bs-popover-start > .popover-arrow,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="left"]
+    > .popover-arrow {
+    right: calc(-0.5rem - 1px);
+    width: 0.5rem;
+    height: 1rem;
+}
+
+.wwp-see-wholesale-prices-popover .bs-popover-start > .popover-arrow::before,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="left"]
+    > .popover-arrow::before {
+    right: 0;
+    border-width: 0.5rem 0 0.5rem 0.5rem;
+    border-left-color: rgba(0, 0, 0, 0.25);
+}
+
+.wwp-see-wholesale-prices-popover .bs-popover-start > .popover-arrow::after,
+.wwp-see-wholesale-prices-popover
+    .bs-popover-auto[data-popper-placement^="left"]
+    > .popover-arrow::after {
+    right: 1px;
+    border-width: 0.5rem 0 0.5rem 0.5rem;
+    border-left-color: #fff;
+}
+
+.wwp-see-wholesale-prices-popover .popover-header {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.wwp-see-wholesale-prices-popover .popover-header:empty {
+    display: none;
+}
+
+.wwp-see-wholesale-prices-popover .popover-body {
+    padding: 1rem 1rem;
+    color: #212529;
+}
+
+.wwp-see-wholesale-prices-popover a.nostyle:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/*
+*/
+.wwp-wwlc-inactive {
+    border-left-color: #348dd6;
+    flex-direction: column;
+}
+.wwp-wwlc-inactive .checked {
+    color: orange;
+}
+
+.wwp-wwlc-inactive .discounted {
+    color: rgb(5, 160, 83);
+}
+
+/* needed to position the spinner correctly */
+.wwp-see-wholesale-prices-popover .loading {
+    height: 50px;
+    position: relative;
+}
+
+/* credit: http://stephanwagner.me/only-css-loading-spinner */
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spinner {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.wwp-see-wholesale-prices-popover .spinner {
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.wwp-see-wholesale-prices-popover .spinner:before {
+    content: "Loading…";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.wwp-see-wholesale-prices-popover .spinner:not(:required):before {
+    content: "";
+    border-radius: 50%;
+    border-top: 2px solid #03ade0;
+    border-right: 2px solid transparent;
+    animation: spinner 0.6s linear infinite;
+    -webkit-animation: spinner 0.6s linear infinite;
+}
+
+.wwp-see-wholesale-prices-popover .form-control {
+    display: inline;
+    border: 0;
+    width: auto;
+}
+
+#log-in.form-control,
+#lost-password.form-control {
+    padding: 0;
+}
+
+/*=====================================================================================================================
+  WWOF v2 CSS Tweaks
+  TODO: Remove when WWOF is in v2.0
+=====================================================================================================================*/
+
+body .ant-modal-content .add-to-cart {
+    clear: both;
+}

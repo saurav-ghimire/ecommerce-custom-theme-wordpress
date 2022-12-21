@@ -1,0 +1,18 @@
+
+&__wrapper,
+&-wrapper {
+    height: calc(100vh - var(--vh-offset, 0px));
+    z-index: var(--ag-form-z-index, 10000);
+    width: var(--ag-overlay-width, 100%);
+    top: var(--ag-form-top, 0);
+    left: var(--ag-form-left, 0);
+    display: var(--ag-form-display, flex);
+    overflow-y: var(--ag-form-overlow, auto);
+    position: var(--ag-form-position, fixed);
+    text-align: var(--ag-text-align, center);
+    padding: var(--ag-wrapper-padding, 20px);
+    transition-duration: var(--ag-transition-duration, 300ms);
+    transition-property: all;
+    transition-timing-function: var(--ag-transition-timing, ease);
+    box-sizing: border-box;
+}

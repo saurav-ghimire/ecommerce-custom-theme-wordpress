@@ -1,0 +1,221 @@
+#wwp-advanced-coupons-page {
+  background: transparent;
+}
+
+#wwp-advanced-coupons-page .row-container {
+  text-align: center;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#wwp-advanced-coupons-page .row-container.company-logos{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#wwp-advanced-coupons-page .row-container.company-logos span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+#wwp-advanced-coupons-page .one-column {
+  flex: 100%;
+}
+
+#wwp-advanced-coupons-page .two-column {
+  flex: 50%;
+}
+
+#wwp-advanced-coupons-page .page-title {
+  margin: 1rem auto 1.5rem auto;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+#wwp-advanced-coupons-page p.page-description {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+#wwp-advanced-coupons-page #box-row {
+  margin: 2rem auto 3rem auto;
+}
+
+#wwp-advanced-coupons-page .box-image {
+  float: right;
+  margin-right: 4rem;
+  margin-top: 1rem;
+}
+
+#wwp-advanced-coupons-page ul.reasons-box {
+  list-style: none outside;
+  padding: 0;
+}
+
+#wwp-advanced-coupons-page ul.reasons-box li {
+  list-style: none outside;
+  margin: 0 0 1rem 0;
+  padding: 0 0 0 1.5rem;
+  text-align: left;
+  font-size: 16px;
+  min-height: 20px;
+}
+
+#wwp-advanced-coupons-page ul.reasons-box li::before {
+  content: " ";
+  background-image: url("../images/wws-page-icons.png");
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 20px;
+  margin-left: -1.5rem;
+  position: absolute;
+}
+
+#wwp-advanced-coupons-page ul.reasons-box li:nth-child(1)::before {
+  background-position: 0 2px;
+}
+#wwp-advanced-coupons-page ul.reasons-box li:nth-child(2)::before {
+  background-position: 0 -25px;
+}
+#wwp-advanced-coupons-page ul.reasons-box li:nth-child(3)::before {
+  background-position: 0 -192px;
+}
+#wwp-advanced-coupons-page ul.reasons-box li:nth-child(4)::before {
+  background-position: 0 -222px;
+}
+#wwp-advanced-coupons-page ul.reasons-box li:nth-child(5)::before {
+  background-position: 0 -247px;
+}
+
+#wwp-advanced-coupons-page .step-container {
+  max-width: 650px;
+  border: 1px solid #d5d5d5;
+  background: #ffffff;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+#wwp-advanced-coupons-page .step-container p {
+  font-size: 14px;
+}
+
+#wwp-advanced-coupons-page .step-container .two-column:first-child {
+  flex: 15%;
+  background: #f5f5f5;
+  border-right: 1px solid #d5d5d5;
+  text-align: center;
+}
+
+#wwp-advanced-coupons-page .step-container .two-column:first-child span {
+  display: inline-block;
+  background: #cccccc;
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 52px;
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+#wwp-advanced-coupons-page .step-container .two-column:last-child {
+  flex: 85%;
+  text-align: left;
+  padding: 1rem 1.5rem;
+}
+
+/* Fade box overlay on step 2 */
+#wwp-advanced-coupons-page .step-container.grayout{
+  position: relative;
+}
+#wwp-advanced-coupons-page .step-container.grayout::after{
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(240, 240, 241, 0.3), rgba(240, 240, 241, 0.8));
+}
+
+/* Buttons */
+.button-green,
+.button-green:visited {
+  background: #3aba8e;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.6rem;
+}
+
+.button-green:hover {
+  color: #ffffff;
+  background: #32a87f;
+}
+
+.button-grey,
+.button-grey:visited {
+  background: #cccccc;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.6rem;
+}
+
+.button-grey:hover {
+  color: #ffffff;
+  background: #cccccc;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  #wwp-advanced-coupons-page #box-row {
+    display: block;
+    text-align: center;
+  }
+  #wwp-advanced-coupons-page #box-row .two-column:first-child {
+    width: 100%;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+
+  #wwp-advanced-coupons-page #box-row .two-column:last-child {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  #wwp-advanced-coupons-page ul.reasons-box li {
+    text-align: center;
+  }
+
+  #wwp-advanced-coupons-page .box-image {
+    float: none;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #wwp-advanced-coupons-page .row-container.company-logos{
+    display: block;
+  }
+}

@@ -1,0 +1,106 @@
+/*
+ Percentage Wholesale Pricing on Product Level
+ @since 2.1.0
+*/
+
+.form-field select {
+    width: 100%;
+}
+
+.resp-table {
+    width: 100%;
+    display: table;
+    margin-top: 20px;
+}
+
+.simple {
+    padding: 0px 14px !important;
+    margin-bottom: 20px;
+}
+
+.simple input[type="text"], .simple select {
+    margin-bottom: 20px !important;
+}
+
+.variable input[type="text"], .variable select {
+    margin-bottom: 20px !important;
+}
+
+.variable.table-body-cell {
+    display: block !important; 
+}
+
+.variable.table-body-cell input[type="text"],
+.variable.table-body-cell select {
+    width: 100% !important;
+}
+
+.wwp-percentage-pricing .resp-table-body .table-body-cell p.form-field {
+    padding: 0px 20px 0px 162px !important;
+}
+
+.wwp-percentage-pricing p.form-field {
+    margin: 0px;
+}
+
+/*.wwp-percentage-pricing .resp-table-body{
+    display: table-row-group;
+}*/
+
+.wwp-percentage-pricing .table-body-cell {
+    display: table-cell;
+}
+
+.wwp-percentage-pricing .table-body-cell.th {
+    font-weight: 600;
+    width: 150px;
+}
+
+.wwp-percentage-pricing .table-body-cell input[type="text"],
+.wwp-percentage-pricing .table-body-cell select {
+    width: 80%;
+}
+
+/*-----------------------------------------------------------------------------------------------------
+ Media
+-----------------------------------------------------------------------------------------------------*/
+@media (min-width: 1400px) {
+    .wwp-percentage-pricing .table-body-cell input[type="text"],
+    .wwp-percentage-pricing .table-body-cell select {
+        padding: 5px !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .wwp-percentage-pricing .table-body-cell {
+        display: block;
+        clear: both;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .wwp-percentage-pricing .table-body-cell > p.form-field {
+        padding: 0px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .wwp-percentage-pricing .table-body-cell > p.form-field > label {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 600px) and (max-width: 800px) {
+    .wwp-percentage-pricing .table-body-cell input[type="text"],
+    .wwp-percentage-pricing .table-body-cell select {
+        padding: 4px !important;
+        width: 250px;
+    }
+
+    .wwp-percentage-pricing .table-body-cell > p.form-field {
+        margin-bottom: 10px !important;
+    }
+
+    .wwp-percentage-pricing .table-body-cell > p.form-field > label {
+        margin: 0px;
+    }
+}

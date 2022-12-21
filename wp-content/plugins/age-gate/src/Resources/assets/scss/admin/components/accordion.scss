@@ -1,0 +1,72 @@
+.ag-accordion {
+    $color: #1d8399;
+
+    border-top: 1px solid $color;
+
+    @media screen and (min-width: 768px) {
+        max-width: 50%;
+    }
+
+    &__trigger {
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin: 0;
+        padding: 1rem;
+        position: relative;
+        color: $color;
+        font-weight: normal;
+        font-size: 1.1rem;
+        line-height: 1.1;
+        padding-right: 40px;
+
+        &::before,
+        &::after {
+            content: "";
+            width: 2px;
+            height: 15px;
+            background: $color;
+            position: absolute;
+            right: 30px;
+            top: 50%;
+            transition: all .7s ease;
+        }
+
+        &::after {
+            transform: translateY(-50%) rotate(0deg);
+        }
+
+        &::before {
+            transform: translateY(-50%) rotate(-90deg);
+        }
+
+        &--active {
+            background: #fff;
+
+            &::after {
+                transform: translateY(-50%) rotate(-270deg);
+            }
+
+            + .ag-accordion__body {
+                background: #fff;
+            }
+        }
+    }
+
+    &__body {
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        border-bottom: 1px solid $color;
+        padding: 0 1rem;
+
+        h4 {
+            font-size: 1.1rem;
+            color: $color;
+        }
+
+        p {
+            margin: 0 0 22px;
+            font-size: .9rem;
+        }
+    }
+}

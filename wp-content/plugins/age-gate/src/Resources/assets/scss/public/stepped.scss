@@ -1,0 +1,21 @@
+.age-gate--stepped {
+
+    .age-gate__fields,
+    .age-gate-fields {
+        overflow: hidden !important;
+    }
+
+    .age-gate__form-elements,
+    .age-gate-form-elements {
+        display: flex !important;
+        // flex-direction: row-reverse;
+        gap: 0 !important;
+        // justify-content: flex-end;
+        transition: all 0.3s ease;
+    }
+
+    .age-gate__form-section,
+    .age-gate-form-section {
+        flex: 0 0 100% !important;
+    }
+}

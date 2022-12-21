@@ -1,0 +1,29 @@
+
+&__loader,
+&-loader {
+    position: fixed;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,.4);
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - var(--vh-offset, 0px));
+    z-index: 100000;
+    color: var(--ag-loader-color, #000);
+
+    .age-restriction--working & {
+        display: flex;
+      }
+
+    svg,
+    img {
+      display: block;
+      width: 70px;
+      height: 70px;
+    }
+
+}

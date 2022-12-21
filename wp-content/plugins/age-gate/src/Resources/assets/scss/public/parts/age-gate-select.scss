@@ -1,0 +1,19 @@
+
+&__select,
+&-select,
+&__region {
+    background: var(--ag-input-background-color, white);
+    width: 100%;
+    text-align: var(--ag-text-align);
+    color: var(--ag-input-color, #414141);
+    border: var(--ag-input-border, solid);
+    border-width: var(--ag-input-border-width, 1px);
+    font-size: var(--ag-input-text-size, 1rem);
+
+    border-radius: var(--ag-input-radius, 3px);
+    padding: var(--ag-input-padding, 0.5rem 1rem);
+}
+
+&__region {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,129 @@
+@use './partials/variables.scss';
+@import '~simplebar/dist/simplebar.css';
+
+.age-restriction {
+    overflow: var(--ag-restriction-overflow, hidden);
+    position: relative;
+    height: calc(100vh - var(--vh-offset, 0px));
+}
+
+.age-gate {
+    position: relative;
+    z-index: var(--ag-form-z-index, 100);
+    border: var(--ag-form-border, 0);
+    border-width: var(--ag-form-border-width, 0);
+    margin: var(--ag-form-margin, auto);
+    padding: var(--ag-form-padding, 20px);
+    border-radius: var(--ag-form-radius, 0px);
+    box-shadow: var(--ag-form-shadow, none);
+    max-width: var(--ag-form-max-width, 500px);
+    max-height: var(--ag-form-max-height, calc(94vh - var(--vh-offset, 0px)));
+    overflow-y: auto;
+    background-color: var(--ag-form-background, white);
+    color: var(--ag-text-color, #333);
+    width: 100%;
+    scrollbar-width: var(--ag-scrollbar-display, none);
+
+    &::-webkit-scrollbar {
+        display: var(--ag-scrollbar-display, none);
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    // @import 'parts/*.scss';
+    @import './partials/simple-bar.scss';
+    @import './parts/age-gate-reset.scss';
+    @import './parts/age-gate-additional-information.scss';
+    @import './parts/age-gate-background-colour.scss';
+    @import './parts/age-gate-background.scss';
+    @import './parts/age-gate-body.scss';
+    @import './parts/age-gate-buttons.scss';
+    @import './parts/age-gate-challenge.scss';
+
+    input[type=text] {
+        &.age-gate {
+        @import './parts/age-gate-input.scss';
+        }
+    }
+
+    select {
+        &.age-gate {
+
+        @import './parts/age-gate-select.scss';
+        }
+    }
+
+    @import './parts/age-gate-label.scss';
+    @import './parts/age-gate-error-message.scss';
+    @import './parts/age-gate-error.scss';
+    @import './parts/age-gate-errors.scss';
+    @import './parts/age-gate-extra.scss';
+    @import './parts/age-gate-form-elements.scss';
+    @import './parts/age-gate-form-fields.scss';
+    @import './parts/age-gate-form-section.scss';
+    @import './parts/age-gate-form.scss';
+    @import './parts/age-gate-heading-title.scss';
+    @import './parts/age-gate-heading.scss';
+    @import './parts/age-gate-headline.scss';
+    @import './parts/age-gate-html.scss';
+    @import './parts/age-gate-loader.scss';
+    @import './parts/age-gate-loading-icon.scss';
+    @import './parts/age-gate-logo-image.scss';
+    @import './parts/age-gate-logo.scss';
+    @import './parts/age-gate-remember-checkbox.scss';
+    @import './parts/age-gate-remember-text.scss';
+    @import './parts/age-gate-remember-wrapper.scss';
+    @import './parts/age-gate-remember.scss';
+    @import './parts/age-gate-subheadline.scss';
+    @import './parts/age-gate-submit-section.scss';
+    @import './parts/age-gate-submit.scss';
+    @import './parts/age-gate-video.scss';
+    @import './parts/age-gate-wrapper.scss';
+    @import './parts/age-gate-shortcode';
+
+    // age-gate.scss
+    // @import './partials//background.scss';
+    // @import './partials/wrapper.scss';
+    // @import './partials/form.scss';
+    // @import './partials/loader.scss';
+    // @import './partials/errors.scss';
+    // @import './partials/additional.scss';
+    // @import './partials/text.scss';
+
+
+    &--shortcode,
+    &-shortcode {
+        padding: 0;
+        background: {
+            color: transparent;
+            size: cover;
+
+        }
+        max-width: none;
+
+    }
+
+    &--fade {
+        opacity: 0;
+    }
+
+    &--slide-up {
+        transform: translateY(-100%);
+    }
+
+    &--slide-down {
+        transform: translateY(100%);
+    }
+
+    &--slide-left {
+        transform: translateX(-100%);
+    }
+
+    &--slide-right {
+        transform: translateX(100%);
+    }
+
+}

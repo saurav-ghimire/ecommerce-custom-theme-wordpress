@@ -1,0 +1,8 @@
+
+&__remember,
+&-remember {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: var(--ag-remember-align, center);
+}

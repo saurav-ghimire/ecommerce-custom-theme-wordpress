@@ -1,0 +1,71 @@
+.wwp-upgrade-box {
+  max-width: 950px !important;
+}
+
+.wwp-upgrade-box h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.wwp-upgrade-box .green-text {
+  color: #218900;
+  font-weight: bold;
+}
+
+.wwp-upgrade-box .wws-logo {
+  margin-top: 1rem;
+  height: 55px;
+}
+
+.wwp-upgrade-box .fivestar {
+  vertical-align: text-top;
+  height: 14px;
+}
+
+.wwp-upgrade-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wwp-upgrade-box ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .wwp-upgrade-box .wwp-upgrade-box-col {
+    width: 100%;
+  }
+
+  .wwp-upgrade-box .wwp-upgrade-box-row {
+    margin-bottom: 1rem;
+  }
+
+  .wwp-upgrade-box .wwp-upgrade-box-col:first-child {
+    border-right: 1px solid #e5e5e5;
+    margin-right: 0.7rem;
+    padding-right: 0.5rem;
+  }
+
+  .wwp-upgrade-box h3 {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 0;
+    padding-top: 0.5rem;
+  }
+
+  .wwp-upgrade-box ul li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .wwp-upgrade-box .wwp-upgrade-box-row {
+    margin-bottom: 1rem;
+  }
+}
+
+#wwp-free-training-guide {
+    max-width: 1000px !important;
+}

@@ -1,0 +1,30 @@
+.table-view-desc {
+    margin-bottom: 6px !important;
+}
+.order-quantity-based-wholesale-pricing-view.table-view {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.order-quantity-based-wholesale-pricing-view.table-view  thead,
+.order-quantity-based-wholesale-pricing-view.table-view  thead tr,
+.order-quantity-based-wholesale-pricing-view.table-view  thead tr th {
+    background-color: #E8E8E8;
+}
+.order-quantity-based-wholesale-pricing-view.table-view  tbody,
+.order-quantity-based-wholesale-pricing-view.table-view  tbody tr,
+.order-quantity-based-wholesale-pricing-view.table-view  tbody tr th {
+    background-color: #f6f6f6;
+}
+.order-quantity-based-wholesale-pricing-view.table-view th,
+.order-quantity-based-wholesale-pricing-view.table-view td {
+    border: 1px solid #fff;
+    text-align: center !important;
+    padding: 2px 26px !important;
+    color: #444;
+    font-size: 14px;
+}
+
+span.price {
+    display: block;
+    margin: 0 0 1.714285714rem;
+}
